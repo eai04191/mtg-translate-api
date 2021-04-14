@@ -1,0 +1,20 @@
+{
+    "name": "mtg-translate-api",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/eai04191/mtg-translate-api.git",
+    "author": "Irie Aoi <eai@mizle.net>",
+    "license": "MIT",
+    "dependencies": {
+        "eol": "^0.9.1",
+        "got": "^11.8.2",
+        "node-jq": "^1.12.0",
+        "progress-stream": "^2.0.0",
+        "tmp-promise": "^3.0.2",
+        "typescript": "^4.2.3",
+        "vercel": "^21.3.3"
+    },
+    "scripts": {
+        "update_dict": "node script/update_dict.mjs"
+    }
+}
